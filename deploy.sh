@@ -72,7 +72,7 @@ function kill_process() {
   if [[ "" != "$pid" ]]
   then {
     echo "$pid 프로세스를 종료"
-    kill -9 "$pid"
+    kill -2 "$pid"
   }
   else {
     echo "지하철 서버 프로세스가 없습니다."
